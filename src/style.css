@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial, san-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #333;
+    color:white;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+
+}
+
+.navnar-links{
+    display: flex;
+}
+
+.navnar-links a {
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navnar-links a:hover{
+    text-decoration: underline;
+}
+
+.LoginButton{
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: cneter;
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid #3498db;
+   background-color: white;
+   border-radius: 5px;
+   transition: background-color 0.3s , color 0.3s;
+
+}
+
+.LoginButton:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.SignUpButton{
+    display: inline-block;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: cneter;
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid #3498db;
+   background-color: white;
+   border-radius: 5px;
+   transition: background-color 0.3s , color 0.3s;
+
+}
+.SignUpButton:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.footerStyle{
+    background-color:#2c3e50;
+    color: #ecf0f1;
+    text-align: 'center';
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: cneter;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s , color 0.3s;
+ 
+ }
+
+ .HomeButton:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.WishListButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: cneter;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s , color 0.3s;
+ 
+ }
+
+ .WishListButton:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.LogOutButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: cneter;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s , color 0.3s;
+ 
+ }
+
+ .LogOutButton:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.DashBoardButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: cneter;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s , color 0.3s;
+ 
+ }
+
+ .DashBoardButton{
+    background-color: #3498db;
+    color: white;
+}
+
+.movie-card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.movie-card{
+    border:1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.movie-card{
+    width:100px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.scrollable-container{
+    display:flex;
+    overflow-x: auto;
+    
+}
+
+.movie-card{
+    flex:0 0 200px;
+    width:150px;
+    margin-right: 10px;
+}
